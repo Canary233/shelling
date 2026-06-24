@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables"""
     
     # API Settings
-    app_name: str = "Shelling"
+    app_name: str = "Hack Scan"
     debug: bool = False
     api_prefix: str = "/api/v1"
     
